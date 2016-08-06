@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/FountainBlue"
+    >
+
+    <TextView
+        android:id="@+id/story_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/story_title"
+        android:textSize="@dimen/text_size_title"
+        android:layout_margin="@dimen/story_margin"
+        android:textColor="@color/story_title_color"
+        />
+
+    <TextView
+        android:id="@+id/story_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/story_title_tv"
+        android:text="fsdjafhlsk"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_content"
+        android:layout_margin="@dimen/story_margin"
+        android:padding="@dimen/story_content_padding"
+        />
+
+
+    <Button
+        android:id="@+id/next_story_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="24dp"
+        android:text="Show Another Fun Fact"
+        android:textColor="@color/FountainBlue"
+        android:textSize="15sp"
+        android:padding="16dp"
+
+        />
+
+</RelativeLayout>
