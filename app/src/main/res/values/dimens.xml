@@ -7,4 +7,7 @@
     <dimen name="text_size_content">18sp</dimen>
     <dimen name="story_content_padding">8dp</dimen>
     <dimen name="story_margin">32dp</dimen>
+
+    <dimen name="story_book_margin">16dp</dimen>
+
 </resources>

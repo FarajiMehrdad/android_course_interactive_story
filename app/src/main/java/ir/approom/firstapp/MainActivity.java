@@ -14,8 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView contentTv = (TextView) findViewById(R.id.story_content_tv);
         Button nextStoryBtn = (Button) findViewById(R.id.next_story_btn);
-
-
+        
 
     }
 }
